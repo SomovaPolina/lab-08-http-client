@@ -35,7 +35,7 @@ find_package(GTest CONFIG REQUIRED)
 add_library(${PROJECT_NAME} STATIC
   # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/Client.cpp
-        sources/URL.cpp include/URL.hpp sources/source.cpp include/Request_parametrs..hpp)
+        sources/URL.cpp include/URL.hpp sources/source.cpp include/Request_parametrs.hpp)
 
 add_executable(demo
   ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp
