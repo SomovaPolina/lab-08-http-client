@@ -13,7 +13,7 @@
 
 #include "Request_parametrs.hpp"
 #include "URL.hpp"
-
+#include "Client.hpp"
 namespace beast = boost::beast;  // from <boost/beast.hpp>
 namespace http = beast::http;    // from <boost/beast/http.hpp>
 namespace net = boost::asio;     // from <boost/asio.hpp>
