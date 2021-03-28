@@ -2,8 +2,8 @@
 // Created by polinka on 26.03.2021.
 //
 
-#ifndef INCLUDE_REQUEST_PARAMETRS__HPP_
-#define INCLUDE_REQUEST_PARAMETRS__HPP_
+#ifndef INCLUDE_REQUEST_PARAMETRS_HPP_
+#define INCLUDE_REQUEST_PARAMETRS_HPP_
 #include <string>
 struct Request_parametrs {
   std::string url;
@@ -13,4 +13,4 @@ struct Request_parametrs {
   std::string request_body;
   int version;
 };
-#endif  // INCLUDE_REQUEST_PARAMETRS__HPP_
+#endif  // INCLUDE_REQUEST_PARAMETRS_HPP_
